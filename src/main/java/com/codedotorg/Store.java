@@ -51,6 +51,18 @@ public class Store {
     }
 
     /**
+     * Adds the selected product to the inventory.
+     * 
+     * @param selectedProduct the product to be added to the inventory
+     */
+    public void addProductToInventory(Product selectedProduct) {
+    if (!products.contains(selectedProduct)) {
+        products.add(selectedProduct);
+    }
+}
+
+
+    /**
      * Updates the products list view by clearing the current
      * items and adding all products to the list view.
      */
