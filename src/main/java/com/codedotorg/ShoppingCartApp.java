@@ -12,6 +12,8 @@ import javafx.stage.Stage;
 import javafx.scene.Node;
 import javafx.scene.Scene;
 
+//Adding a comment to test - this is ken
+
 public class ShoppingCartApp {
 
     /** The main window to display the app */
