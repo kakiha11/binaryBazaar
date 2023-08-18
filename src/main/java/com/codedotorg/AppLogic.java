@@ -78,7 +78,7 @@ public class AppLogic {
      * @return the new total of all products in the cart
      */
     public double getNewTotal() {
-
+        // find the sum of all products
         
         return 0.0;
     }
